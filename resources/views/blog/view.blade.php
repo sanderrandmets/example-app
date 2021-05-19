@@ -1,25 +1,6 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>Laravel</title>
-
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-
-        <!-- Styles -->
-        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-
-        <style>
-            body {
-                font-family: 'Nunito', sans-serif;
-            }
-        </style>
-    </head>
-    <body class="antialiased">
-        <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 dark:text-white py-4 sm:pt-0">
+@extends("layouts.main")
+@section("content")
+        <div class="relative flex items-top justify-center min-h-screen bg-gray-100 bg-yellow-600 dark:text-white py-4 sm:pt-0">
             <div class="max-w-6xl mx-auto py-8 sm:px-6 lg:px-8">
                 <a href="/" class="flex items-center gap-2"><x-heroicon-o-arrow-left class="h-4 inline"/>Back</a>
                 <h1 class="text-xl mt-4"> {{ $post->title }}</h1>
@@ -140,5 +121,4 @@
                 </div>
             </div>-->
         </div>
-    </body>
-</html>
+        @endsection

@@ -1,4 +1,21 @@
-<!DOCTYPE html>
+@extends("layouts.main")
+@section("content")
+<div class="p-8 flex justify-center content-center justify-items-center items-center text-white space-y-5 content-around">
+    <p>Welcome to Musicmaster site<br><br>
+    Here you can find tutorials, plugins, drum-kits what makes much easier to produce. You can find more easiest information, how to make a good music.<br> 
+    Lorem Ipsum is simply dummy text of the printing and typesetting
+    industry. Lorem Ipsum has been the industry's standard dummy
+    text ever since the 1500s, when an unknown printer took a galley
+    of type and scrambled it to make a type specimen book. It has
+    survived not only five centuries, but also the leap into electronic
+    typesetting, remaining essentially unchanged. It was popularised in
+    the 1960s with the release of Letraset sheets containing Lorem
+    Ipsum passages, and more recently with desktop publishing
+    software like Aldus PageMaker including versions of Lorem Ipsum.</p>  
+</div>         
+@endsection
+
+<!--<!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
@@ -6,11 +23,11 @@
 
         <title>Laravel</title>
 
-        <!-- Fonts -->
+        --><!-- Fonts --><!--
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
-        <!-- Styles -->
-        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+        --><!-- Styles -->
+        <!--<link rel="stylesheet" href="{{ asset('css/app.css') }}">
 
         <style>
             body {
@@ -23,9 +40,9 @@
             @if (Route::has('login'))
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
                     @auth
+                        --><!--<a href="{{ url('/dashboard') }}" class="text-sm text-gray-700 underline">Dashboard</a>-->
                         <!--<a href="{{ url('/dashboard') }}" class="text-sm text-gray-700 underline">Dashboard</a>-->
-                        <a href="{{ url('/dashboard') }}" class="text-sm text-gray-700 underline">Dashboard</a>
-                        <!--<a href="{{ url('/logout') }}" class="text-sm text-gray-700 underline">Logout</a>-->
+                        <!--<a href="{{ url('/logout') }}" class="text-sm text-gray-700 underline">Logout</a>
                     @else
                         <a href="{{ route('login') }}" class="text-sm text-gray-700 underline">Log in</a>
 
@@ -50,7 +67,7 @@
                         </div>    
                     @endforeach
                 </div>
-            </div>
+            </div>-->
                 <!--<div class="flex justify-center pt-8 sm:justify-start sm:pt-0">
                     <svg viewBox="0 0 651 192" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-16 w-auto text-gray-700 sm:h-20">
                         <g clip-path="url(#clip0)" fill="#EF3B2D">

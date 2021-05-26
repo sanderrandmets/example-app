@@ -30,6 +30,7 @@
             <a class="p-5 hover:bg-gray-400" href="/softwares">Softwares</a>
             <a class="p-5 hover:bg-gray-400" href="/presets">Presets</a>
             <a class="p-5 hover:bg-gray-400" href="/plugins">Plugins</a>
+            <a class="p-5 hover:bg-gray-400" href="/questions">Questions</a>
             <a class="p-5 hover:bg-gray-400" href="{{ route('login') }}">Log in</a>
             <a class="p-5 hover:bg-gray-400" href="/register">Sign up</a>
         </nav>

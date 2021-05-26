@@ -8,5 +8,11 @@
         <div class="p-1"><!--px-20-->
             <a href="https://www.youtube.com/user/melklor99" class="text-white pb-4 text-3xl">2) MHA</a>
         </div>
+        <div class="p-1"><!--px-20-->
+            <a href="https://www.youtube.com/channel/UCeSmeYRXisq159uoEgJAggQ" class="text-white pb-4 text-3xl">3) Falubii</a>
+        </div>
+        <div class="p-1"><!--px-20-->
+            <a href="https://www.youtube.com/channel/UCXvSeBDvzmPO05k-0RyB34w" class="text-white pb-4 text-3xl">4) Future House Music</a>
+        </div>
     </div>    
 @endsection

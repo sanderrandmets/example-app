@@ -17,7 +17,7 @@
 
                         <input type="hidden" name="id" value="{{ $post->id }}">
                         <div class="mt-4">
-                            <x-label for="title" :value="__('Title')" />
+                            <x-label for="title" :value="__('Name')" />
                             <x-input id="title" class="block mt-1 w-full"
                                             type="text"
                                             name="title"

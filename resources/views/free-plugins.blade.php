@@ -8,5 +8,8 @@
         <div class="p-1">
             <a href="https://plugins4free.com/plugin/2421/" class="text-white pb-4 text-3xl">2) Iowa Trumpet</a>
         </div>
-    </div>    
+        <div class="p-1">
+            <a href="https://labs.spitfireaudio.com/#category=&search=&new=true" class="text-white pb-4 text-3xl">2) LABS</a>
+        </div>
+    </div>
 @endsection

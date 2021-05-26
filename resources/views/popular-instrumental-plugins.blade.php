@@ -41,6 +41,23 @@
         <div class="p-1">
             <a href="https://www.native-instruments.com/en/products/komplete/synths/massive/" class="text-white pb-4 text-3xl">13) Massive</a>
         </div>
-
+        <div class="p-1">
+            <a href="https://www.native-instruments.com/en/products/komplete/synths/massive/" class="text-white pb-4 text-3xl">13) Massive</a>
+        </div>
+        <div class="p-1">
+            <a href="https://u-he.com/products/diva/" class="text-white pb-4 text-3xl">14) Diva</a>
+        </div>
+        <div class="p-1">
+            <a href="https://u-he.com/products/hive/" class="text-white pb-4 text-3xl">15) Hive 2</a>
+        </div>
+        <div class="p-1">
+            <a href="https://output.com/products/arcade" class="text-white pb-4 text-3xl">16) Arcade</a>
+        </div>
+        <div class="p-1">
+            <a href="https://u-he.com/products/repro/" class="text-white pb-4 text-3xl">17) Repro</a>
+        </div>
+        <div class="p-1">
+            <a href="https://u-he.com/products/zebra2/" class="text-white pb-4 text-3xl">18) Zebra 2</a>
+        </div>
     </div>    
 @endsection

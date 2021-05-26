@@ -16,7 +16,7 @@
                         <input type="submit" name="subimt" id="">
                     </form>
                     @foreach ($content as $item)
-                        <a href="{{ $item->file }}"><h2>{{ $item->name }}</h2></a>
+                        <a href="{{ Storage::url($item->file) }}"><h2>{{ $item->name }}</h2></a>
                     @endforeach
                 </div>
             </div>
@@ -24,5 +24,4 @@
     </div>
 </x-app-layout>
 
-<!--get-is lahevad andmed url-i -->
-<!---->
+

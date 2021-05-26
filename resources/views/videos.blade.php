@@ -9,10 +9,13 @@
             <a href="/rap-music-channels" class="text-white pb-4 text-3xl">2) Reggaeton beat tutorials</a>
         </div>
         <div class="p-1"><!--px-20-->
-            <a href="/rap-music-channels" class="text-white pb-4 text-3xl">3) 808 beat tutorials</a>
+            <a href="/rap-music-channels" class="text-white pb-4 text-3xl">3) Hi-hat roll tutorials</a>
         </div>
         <div class="p-1"><!--px-20-->
-            <a href="/rap-music-channels" class="text-white pb-4 text-3xl">4) Hi-hat roll tutorials</a>
+            <a href="/remakes" class="text-white pb-4 text-3xl">4) Remakes</a>
+        </div>
+        <div class="p-1"><!--px-20-->
+            <a href="/instrumental-plugin-sounds" class="text-white pb-4 text-3xl">5) Instrumental plugin sounds</a>
         </div>
     </div>    
 @endsection

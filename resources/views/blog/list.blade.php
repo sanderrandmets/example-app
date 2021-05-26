@@ -4,7 +4,7 @@
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
             {{ __('Blog') }}
         </h2>
-        <a href="{{ route('blog.create') }}" class="px-4 py-2 pg-blue-500 rounded text-blue-200">Add Post</a>
+        <a href="{{ route('blog.create') }}" class="px-4 py-2 pg-blue-500 rounded text-blue-200">Add Question</a>
     </div>    
     </x-slot>
 
@@ -14,7 +14,7 @@
                 <div class="p-6 bg-white border-b border-gray-200">
                     <table class="w-full">
                         <tr>
-                            <th>{{ __('Title') }}</th>
+                            <th>{{ __('Name') }}</th>
                             <th class="px-2">{{ __('Body') }}</th>
                         </tr>     
                         @foreach ($posts as $post)

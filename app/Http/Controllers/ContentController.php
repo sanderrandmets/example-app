@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\Storage;
 
 class ContentController extends Controller
 {
+
     public function create()
     {
         return view('content.create');
@@ -28,4 +29,14 @@ class ContentController extends Controller
 
         return redirect()->route('dashboard');
     }
+
+    public function delete(Content $content) {
+        $content->delete();
+
+        return redirect()->route("content");
+
+    }
 }
+
+//$extension = $request->file('avatar')->extension();
+//Storage::put('file.flp', $contents, 'public');

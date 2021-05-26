@@ -6,7 +6,7 @@
             <a href="https://unison.audio/product/unison-midi-chord-pack/" class="text-white pb-4 text-3xl">1) Unison midi chord pack</a>
         </div>
         <div class="p-1">
-            <a href="/wavsupply-midi" class="text-white pb-4 text-3xl">2) Wavsupply</a>
+            <a href="https://wavsupply.net/?s=midi" class="text-white pb-4 text-3xl">2) Wavsupply</a>
         </div>
     </div>    
 @endsection

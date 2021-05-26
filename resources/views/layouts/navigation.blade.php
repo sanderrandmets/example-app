@@ -16,7 +16,7 @@
                         {{ __('Dashboard') }}
                     </x-nav-link>
                     <x-nav-link :href="route('blog')" :active="request()->routeIs('blog')">
-                        {{ __('Blog') }}
+                        {{ __('Chat') }}
                     </x-nav-link>
                 </div>
             </div>

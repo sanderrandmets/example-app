@@ -16,7 +16,7 @@
                         @csrf
 
                         <div class="mt-4">
-                            <x-label for="title" :value="__('Title')" />
+                            <x-label for="title" :value="__('Name')" />
                             <x-input id="title" class="block mt-1 w-full"
                                             type="text"
                                             name="title"
@@ -25,12 +25,6 @@
                         <div class="mt-4">
                             <x-label for="body" :value="__('Body')" />
                             <x-textarea id="body" class="block mt-1 w-full" rows="20" name="body" required></x-textarea>
-                            <!--<h1>Create Post</h1>
-                            {!! Form::open(['action' => 'PostsController@store', 'method' => 'POST', 'enctype' => 'multipart'])}
-                                <div class="form-group">
-                                    {{Form::label('title', 'Title')}}
-                                    {{}}
-                                </div>-->
                         </div>
                     </form>
                 </div>

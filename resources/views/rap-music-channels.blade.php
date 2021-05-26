@@ -11,5 +11,20 @@
         <div class="p-1"><!--px-20-->
             <a href="https://www.youtube.com/channel/UC40h1HG1fQC5PVoHWK7uk-Q" class="text-white pb-4 text-3xl">3) Mika da GOAT</a>
         </div>
+        <div class="p-1"><!--px-20-->
+            <a href="https://www.youtube.com/c/Chuki2/videos" class="text-white pb-4 text-3xl">4) Chuki Beats</a>
+        </div>
+        <div class="p-1"><!--px-20-->
+            <a href="https://www.youtube.com/channel/UCGvTbU2SsGONC17Y3TAUwUA/videos" class="text-white pb-4 text-3xl">4) Skana Beats</a>
+        </div>
+        <div class="p-1"><!--px-20-->
+            <a href="https://www.youtube.com/c/SamyBeatz/videos" class="text-white pb-4 text-3xl">5) Samy Beatz</a>
+        </div>
+        <div class="p-1"><!--px-20-->
+            <a href="https://www.youtube.com/channel/UCGvTbU2SsGONC17Y3TAUwUA/videos" class="text-white pb-4 text-3xl">4) Skana Beats</a>
+        </div>
+        <div class="p-1"><!--px-20-->
+            <a href="https://www.youtube.com/channel/UCXrDJIpt-3giDMdwiBJvPvg/videos" class="text-white pb-4 text-3xl">5) Ocean</a>
+        </div>
     </div>    
 @endsection

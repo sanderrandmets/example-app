@@ -26,8 +26,168 @@ Route::get('/free-cymnatics', function () {
     return view('free-cymnatics');
 });
 
+Route::get('/questions', function () {
+    return view('questions', ['posts' => Blog::all()]);
+});
+
+Route::get('/remakes', function () {
+    return view('remakes');
+});
+
+Route::get('/best-remake-channels', function () {
+    return view('best-remake-channels');
+});
+
+Route::get('/fl-studio-remake-channels', function () {
+    return view('fl-studio-remake-channels');
+});
+
+Route::get('/studio-one-remake-channels', function () {
+    return view('studio-one-remake-channels');
+});
+
+Route::get('/lmms-remake-channels', function () {
+    return view('lmms-remake-channels');
+});
+
+Route::get('/logic-pro-x-remake-channels', function () {
+    return view('logic-pro-x-remake-channels');
+});
+
+Route::get('/fl-studio-remakes', function () {
+    return view('fl-studio-remakes');
+});
+
+Route::get('/studio-one-remakes', function () {
+    return view('studio-one-remakes');
+});
+
+Route::get('/logic-pro-x-remakes', function () {
+    return view('logic-pro-x-remakes');
+});
+
+Route::get('/logic-pro-x-remakes-alan-walker', function () {
+    return view('logic-pro-x-remakes-alan-walker');
+});
+
+Route::get('/logic-pro-x-remakes-alan-walker-faded', function () {
+    return view('logic-pro-x-remakes-alan-walker-faded');
+});
+
+Route::get('/logic-pro-x-remakes-billie-eilish', function () {
+    return view('logic-pro-x-remakes-billie eilish');
+});
+
+Route::get('/logic-pro-x-remakes-the-weeknd', function () {
+    return view('logic-pro-x-remakes-the-weeknd');
+});
+
+Route::get('/logic-pro-x-remakes-dua-lipa', function () {
+    return view('logic-pro-x-remakes-dua-lipa');
+});
+
+Route::get('/lmms-remakes', function () {
+    return view('lmms-remakes');
+});
+
+Route::get('/lmms-remakes-alan-walker', function () {
+    return view('lmms-remakes-alan-walker');
+});
+
+Route::get('/lmms-remakes-alan-walker-faded', function () {
+    return view('lmms-remakes-alan-walker-faded');
+});
+
+Route::get('/lmms-remakes-the-weeknd', function () {
+    return view('lmms-remakes-the-weeknd');
+});
+
+Route::get('/lmms-remakes-dua-lipa', function () {
+    return view('lmms-remakes-dua-lipa');
+});
+
+Route::get('/lmms-remakes-billie-eilish', function () {
+    return view('lmms-remakes-billie-eilish');
+});
+
+Route::get('/ableton-live-remakes', function () {
+    return view('ableton-live-remakes');
+});
+
+Route::get('/ableton-live-remakes-alan-walker', function () {
+    return view('ableton-live-remakes-alan-walker');
+});
+
+Route::get('/ableton-live-remakes-alan-walker-faded', function () {
+    return view('ableton-live-remakes-alan-walker-faded');
+});
+
+Route::get('/fl-studio-remakes-alan-walker', function () {
+    return view('fl-studio-remakes-alan-walker');
+});
+
+Route::get('/fl-studio-remakes-alan-walker-faded', function () {
+    return view('fl-studio-remakes-alan-walker-faded');
+});
+
+Route::get('/fl-studio-remakes-alan-walker-spectre', function () {
+    return view('fl-studio-remakes-alan-walker-spectre');
+});
+
+Route::get('/fl-studio-remakes-the-weeknd', function () {
+    return view('fl-studio-remakes-the-weeknd');
+});
+
+Route::get('/fl-studio-remakes-the-weeknd-blinding-lights', function () {
+    return view('fl-studio-remakes-the-weeknd-blinding-lights');
+});
+
+Route::get('/fl-studio-remakes-the-weeknd-in-your-eyes', function () {
+    return view('fl-studio-remakes-the-weeknd-in-your-eyes');
+});
+
+Route::get('/fl-studio-remakes-the-weeknd-save-your-tears', function () {
+    return view('fl-studio-remakes-the-weeknd-save-your-tears');
+});
+
+Route::get('/fl-studio-remakes-the-weeknd-starboy', function () {
+    return view('fl-studio-remakes-the-weeknd-starboy');
+});
+
+Route::get('/fl-studio-remakes-billie-eilish', function () {
+    return view('fl-studio-remakes-billie-eilish');
+});
+
+Route::get('/fl-studio-remakes-billie-eilish-bad-guy', function () {
+    return view('fl-studio-remakes-billie-eilish-bad-guy');
+});
+
+Route::get('/fl-studio-remakes-billie-eilish-everything-i-wanted', function () {
+    return view('fl-studio-remakes-billie-eilish-everything-i-wanted');
+});
+
+Route::get('/fl-studio-remakes-billie-eilish-therefore-i-am', function () {
+    return view('fl-studio-remakes-billie-eilish-therefore-i-am');
+});
+
+Route::get('/the-weeknd', function () {
+    return view('the-weeknd');
+});
+
+Route::get('/billie-eilish', function () {
+    return view('billie-eilish');
+});
+
+Route::get('/dua-lipa', function () {
+    return view('dua-lipa');
+});
+
 Route::get('/free-musicgateway', function () {
     return view('free-musicgateway');
+});
+
+Route::get('/free-bvker', function () {
+    return view('free-bvker');
 });
 
 Route::get('/channels', function () {
@@ -84,6 +244,8 @@ Route::get('/popular-loops-samples', function () {
 
 Route::post('/upload', [ContentController::class, 'save'])->name('upload');
 
+//Route::post('/upload.delete', [ContentController::class, 'delete'])->name('upload');
+
 Route::view('upload','upload');
 
 
@@ -119,6 +281,10 @@ Route::get('/instrumental-plugins', function () {
     return view('instrumental-plugins');
 });
 
+Route::get('/instrumental-plugin-sounds', function () {
+    return view('instrumental-plugin-sounds');
+});
+
 Route::get('/free-instrumental-plugins', function () {
     return view('free-instrumental-plugins');
 });
@@ -143,8 +309,12 @@ Route::get('/popular-mixing-plugins', function () {
     return view('popular-mixing-plugins');
 });
 
-Route::get('/free-plugins', function () {
-    return view('free-plugins');
+Route::get('/free-instrumental-plugins', function () {
+    return view('free-instrumental-plugins');
+});
+
+Route::get('/free-mixing-plugins', function () {
+    return view('free-mixing-plugins');
 });
 
 Route::get('/popular-plugins', function () {
@@ -193,6 +363,10 @@ Route::get('/free-omnisphere-presets', function () {
 
 Route::get('/omnisphere-presets-shop', function () {
     return view('omnisphere-presets-shop');
+});
+
+Route::get('/omnisphere-sounds', function () {
+    return view('omnisphere-sounds');
 });
 
 Route::get('/free-serum-presets', function () {
@@ -247,6 +421,7 @@ Route::middleware(["auth"])->group(function (){
         Route::post("/create", [BlogController::class, "store"]);
             
         Route::get("/delete/{post}", [BlogController::class, "delete"])->middleware(['auth'])->name("delete");
+        Route::get("/delete/{content}", [ContentController::class, "delete"])->middleware(['auth'])->name("delete");
         Route::get("/edit/{post}", [BlogController::class, "edit"])->middleware(['auth'])->name("edit");
 
         Route::post("/update", [BlogController::class, "update"])->middleware(['auth'])->name("update");

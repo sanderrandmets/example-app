@@ -18,7 +18,7 @@
             <a href="/fl-studio-remakes-alan-walker-play" class="text-white pb-4 text-3xl">5) Alan Walker, K-391, Tungevaag, Mangoo - PLAY</a>
         </div>
         <div class="p-1"><!--px-20-->
-            <a href="/fl-studio-remakes-alan-walker-diamond-heart" class="text-white pb-4 text-3xl">5) Alan Walker, K-391, Tungevaag, Mangoo - PLAY</a>
+            <a href="/fl-studio-remakes-alan-walker-diamond-heart" class="text-white pb-4 text-3xl">6) Alan Walker - Diamond Heart</a>
         </div>
     </div>    
 @endsection

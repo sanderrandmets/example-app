@@ -12,11 +12,12 @@
                     <form action="{{ route('upload') }}" method="post" enctype="multipart/form-data">
                         @csrf
                         <input type="file" name="file" id="fileToUpload">
-                        <input type="text" name="name">
+                        <input type="text" name="name" placeholder="name">
                         <input type="submit" name="subimt" id="">
                     </form>
                     @foreach ($content as $item)
-                        <a href="{{ Storage::url($item->file) }}"><h2>{{ $item->name }}</h2></a>
+                        <a href="{{ Storage::url($item->file) }}"><h2>{{ $item->name }}</h2></a><!--h-4-->
+                        <a href="{{ route('content.delete', ['item' => $item->id]) }}" class="bg-red-500 p-2 rounded"><x-heroicon-o-trash class="h-4"/></a>
                     @endforeach
                 </div>
             </div>

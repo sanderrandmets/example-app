@@ -25,9 +25,6 @@
             @if (Route::has('login'))
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
                     @auth
-                        <a href="{{ url('/dashboard') }}" class="text-sm text-gray-700 underline">Dashboard</a>
-                        <a href="{{ url('/dashboard') }}" class="text-sm text-gray-700 underline">Dashboard</a>
-                        <a href="{{ url('/logout') }}" class="text-sm text-gray-700 underline">Logout</a>
                     @else
                         <!--<a href="{{ route('login') }}" class="text-sm text-gray-700 underline">Log in</a>-->
 
@@ -39,7 +36,7 @@
             @endif
 
             <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
-                <h1 class="text-2xl">Hello! Welcome to my blog.</h1>
+                <h1 class="text-2xl">Questions & Answers</h1>
                 <div class="flex flex-col gap-4">
                     @foreach ($posts as $post)
                         <div class="p-4 border border-blue-300 dark:border-white rounded bg-blue-200 dark:bg-gray-700">

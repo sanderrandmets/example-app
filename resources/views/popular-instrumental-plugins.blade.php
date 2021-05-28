@@ -42,9 +42,6 @@
             <a href="https://www.native-instruments.com/en/products/komplete/synths/massive/" class="text-white pb-4 text-3xl">13) Massive</a>
         </div>
         <div class="p-1">
-            <a href="https://www.native-instruments.com/en/products/komplete/synths/massive/" class="text-white pb-4 text-3xl">13) Massive</a>
-        </div>
-        <div class="p-1">
             <a href="https://u-he.com/products/diva/" class="text-white pb-4 text-3xl">14) Diva</a>
         </div>
         <div class="p-1">

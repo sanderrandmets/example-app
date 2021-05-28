@@ -8,8 +8,5 @@
         <div class="p-1">
             <a href="https://cymatics.fm/collections/drum-kits/products/eternity-vintage-collection" class="text-white pb-4 text-3xl">2) ETERNITY VINTAGE COLLECTION</a>
         </div>
-        <div class="p-1">
-            <a href="https://cymatics.fm/pages/oracle-sample-packn" class="text-white pb-4 text-3xl">3) ORACLE SAMPLE PACK</a>
-        </div>
     </div>    
 @endsection

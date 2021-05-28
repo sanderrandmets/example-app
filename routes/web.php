@@ -26,6 +26,42 @@ Route::get('/free-cymnatics', function () {
     return view('free-cymnatics');
 });
 
+Route::get('/coming-soon', function () {
+    return view('coming-soon');
+});
+
+Route::get('/reggaeton-beat-tutorials', function () {
+    return view('reggaeton-beat-tutorials');
+});
+
+Route::get('/producer-interviews', function () {
+    return view('producer-interviews');
+});
+
+Route::get('/drake-beat-tutorials', function () {
+    return view('drake-beat-tutorials');
+});
+
+Route::get('/afro-beat-tutorials', function () {
+    return view('afro-beat-tutorials');
+});
+
+Route::get('/dancehall-beat-tutorials', function () {
+    return view('afro-beat-tutorials');
+});
+
+Route::get('/drill-beat-tutorials', function () {
+    return view('drill-beat-tutorials');
+});
+
+Route::get('/hi-hat-roll-tutorials', function () {
+    return view('hi-hat-roll-tutorials');
+});
+
+Route::get('/trap-beat-tutorials', function () {
+    return view('trap-beat-tutorials');
+});
+
 Route::get('/questions', function () {
     return view('questions', ['posts' => Blog::all()]);
 });
@@ -44,6 +80,22 @@ Route::get('/fl-studio-remake-channels', function () {
 
 Route::get('/studio-one-remake-channels', function () {
     return view('studio-one-remake-channels');
+});
+
+Route::get('/studio-one-remakes-alan-walker', function () {
+    return view('studio-one-remakes-alan-walker');
+});
+
+Route::get('/studio-one-remakes-alan-walker-faded', function () {
+    return view('studio-one-remakes-alan-walker-faded');
+});
+
+Route::get('/studio-one-remakes-billie-eilish', function () {
+    return view('studio-one-remakes-billie-eilish');
+});
+
+Route::get('/studio-one-remakes-the-weeknd', function () {
+    return view('studio-one-remakes-the-weeknd');
 });
 
 Route::get('/lmms-remake-channels', function () {
@@ -75,7 +127,7 @@ Route::get('/logic-pro-x-remakes-alan-walker-faded', function () {
 });
 
 Route::get('/logic-pro-x-remakes-billie-eilish', function () {
-    return view('logic-pro-x-remakes-billie eilish');
+    return view('logic-pro-x-remakes-billie-eilish');
 });
 
 Route::get('/logic-pro-x-remakes-the-weeknd', function () {
@@ -118,8 +170,28 @@ Route::get('/ableton-live-remakes-alan-walker', function () {
     return view('ableton-live-remakes-alan-walker');
 });
 
+Route::get('/ableton-live-remakes-billie-eilish', function () {
+    return view('ableton-live-remakes-billie-eilish');
+});
+
 Route::get('/ableton-live-remakes-alan-walker-faded', function () {
     return view('ableton-live-remakes-alan-walker-faded');
+});
+
+Route::get('/ableton-live-remakes-the-weeknd', function () {
+    return view('ableton-live-remakes-the-weeknd');
+});
+
+Route::get('/ableton-live-remakes-dua-lipa', function () {
+    return view('ableton-live-remakes-dua-lipa');
+});
+
+Route::get('/ableton-live-remakes-the-weeknd-blinding-lights', function () {
+    return view('ableton-live-remakes-the-weeknd-blinding-lights');
+});
+
+Route::get('/ableton-live-remakes-the-weeknd-starboy', function () {
+    return view('ableton-live-remakes-the-weeknd-starboy');
 });
 
 Route::get('/fl-studio-remakes-alan-walker', function () {
@@ -168,18 +240,6 @@ Route::get('/fl-studio-remakes-billie-eilish-everything-i-wanted', function () {
 
 Route::get('/fl-studio-remakes-billie-eilish-therefore-i-am', function () {
     return view('fl-studio-remakes-billie-eilish-therefore-i-am');
-});
-
-Route::get('/the-weeknd', function () {
-    return view('the-weeknd');
-});
-
-Route::get('/billie-eilish', function () {
-    return view('billie-eilish');
-});
-
-Route::get('/dua-lipa', function () {
-    return view('dua-lipa');
 });
 
 Route::get('/free-musicgateway', function () {
@@ -405,12 +465,23 @@ Route::get('/our-omnisphere-presets', function () {
     return view('our-omnisphere-presets');
 });
 
+Route::get('/omnisphere-sound-design-tutorials', function () {
+    return view('omnisphere-sound-design-tutorials');
+});
+
+Route::get("content/delete{item}", [ContentController::class, "delete"])->middleware(['auth'])->name("content.delete");
+
+Route::get("content/edit{item}", [ContentController::class, "edit"])->middleware(['auth'])->name("content.edit");
+
+Route::get("content/update", [ContentController::class, "update"])->middleware(['auth'])->name("content.update");
+
 Route::get("/post/{post}", [BlogController::class, "view"])->name("blog.view");
 
 Route::post("/comment/add", [CommentController::class, "store"])->name("comment.add");
 
 Route::middleware(["auth"])->group(function (){
 
+    //Route::get("content", [ContentController::class, "delete"])->middleware(['auth'])->name("content.delete");
     Route::get('/dashboard', function () {
         return view('dashboard', ['content' => Content::all()]);
     })->name('dashboard');
@@ -421,7 +492,6 @@ Route::middleware(["auth"])->group(function (){
         Route::post("/create", [BlogController::class, "store"]);
             
         Route::get("/delete/{post}", [BlogController::class, "delete"])->middleware(['auth'])->name("delete");
-        Route::get("/delete/{content}", [ContentController::class, "delete"])->middleware(['auth'])->name("delete");
         Route::get("/edit/{post}", [BlogController::class, "edit"])->middleware(['auth'])->name("edit");
 
         Route::post("/update", [BlogController::class, "update"])->middleware(['auth'])->name("update");

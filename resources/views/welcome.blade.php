@@ -3,15 +3,11 @@
 <div class="p-8 flex justify-center content-center justify-items-center items-center text-white space-y-5 content-around">
     <p>Welcome to Musicmaster site<br><br>
     Here you can find tutorials, plugins, drum-kits what makes much easier to produce. You can find more easiest information, how to make a good music.<br> 
-    Lorem Ipsum is simply dummy text of the printing and typesetting
-    industry. Lorem Ipsum has been the industry's standard dummy
-    text ever since the 1500s, when an unknown printer took a galley
-    of type and scrambled it to make a type specimen book. It has
-    survived not only five centuries, but also the leap into electronic
-    typesetting, remaining essentially unchanged. It was popularised in
-    the 1960s with the release of Letraset sheets containing Lorem
-    Ipsum passages, and more recently with desktop publishing
-    software like Aldus PageMaker including versions of Lorem Ipsum.</p>  
+    On this site you can find many cool drum kites, midi, plugins, one shots, presets, loops and samples.<br> 
+    We also have many awesome remakes of various world hits. You will also find very useful tutorials to help you better understand<br>
+    how to make the highest quality music possible. Here you can choose the software that suits you,<br>
+    making it more convenient for you to make music. We have also looked for various plugins that are not only high quality,<br>
+    but also available for free online.<br></p>  
 </div>
 <!--<!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">

@@ -30,10 +30,22 @@ class ContentController extends Controller
         return redirect()->route('dashboard');
     }
 
-    public function delete(Content $content) {
-        $content->delete();
 
-        return redirect()->route("content");
+    public function edit(Content $item) {
+        return view("edit", compact("item"));
+    }
+
+    public function update(Request $req) {
+        $item = Content::find($req->id);
+        $item->title = $req->title;
+        $item->body = $req->body;
+        $item->save();
+    }
+
+    public function delete(Content $item) {
+        $item->delete();
+
+        return redirect()->route("dashboard");
 
     }
 }

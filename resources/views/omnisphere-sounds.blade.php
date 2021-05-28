@@ -30,7 +30,10 @@
             <a href="https://www.youtube.com/watch?v=fIrtHN25Wso" class="text-white pb-4 text-3xl">9) Sweetscale TV top 25 Omnisphere sounds</a>
         </div>
         <div class="p-1">
-            <a href="https://www.youtube.com/watch?v=_Z0AMk9D-hs" class="text-white pb-4 text-3xl">9) Sweetscale Omnisphere ratings</a>
+            <a href="https://www.youtube.com/watch?v=_Z0AMk9D-hs" class="text-white pb-4 text-3xl">9) Sweetscale Omnisphere sound ratings</a>
+        </div>
+        <div class="p-1">
+            <a href="https://www.youtube.com/watch?v=WE4ueIUfSNA" class="text-white pb-4 text-3xl">10) Omnisphere (Atmosphere) sounds</a>
         </div>
     </div>    
 @endsection

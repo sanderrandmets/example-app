@@ -26,5 +26,11 @@
         <div class="p-1"><!--px-20-->
             <a href="https://www.youtube.com/channel/UCXrDJIpt-3giDMdwiBJvPvg/videos" class="text-white pb-4 text-3xl">5) Ocean</a>
         </div>
+        <div class="p-1"><!--px-20-->
+            <a href="https://www.youtube.com/c/HowToMakeBeats/videos" class="text-white pb-4 text-3xl">6) How to make beats</a>
+        </div>
+        <div class="p-1"><!--px-20-->
+            <a href="https://www.youtube.com/c/Pereponka/videos" class="text-white pb-4 text-3xl">7) Pereponka beats</a>
+        </div>
     </div>    
 @endsection
